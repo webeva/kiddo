@@ -122,6 +122,35 @@ export default function Home() {
               onClick={() => {
                 if (lang == "eng") {
                   router.push(
+                    "https://www.typing.com/student/lesson/359/j-f-and-space"
+                  );
+                } else if (lang == "arab") {
+                  router.push(
+                    "https://www.typing.com/student/lesson/359/j-f-and-space"
+                  );
+                } else if (lang == "fr") {
+                  router.push(
+                    "https://www.typing.com/student/lesson/359/j-f-and-space"
+                  );
+                }
+              }}
+            >
+              <Image
+                className={style.image}
+                src="/images/typingcom.png"
+                alt="Typing"
+                width={70}
+                height={70}
+              />
+              <span className={style.level}>
+                <h1>Level 1</h1>
+                <h2>Typing</h2>
+              </span>
+            </div>
+            <div
+              onClick={() => {
+                if (lang == "eng") {
+                  router.push(
                     "https://studio.code.org/s/aquatic/lessons/1/levels/1?lang=en-US"
                   );
                 } else if (lang == "arab") {
@@ -143,7 +172,7 @@ export default function Home() {
                 className={style.image}
               />
               <span className={style.level}>
-                <h1>Level 1</h1>
+                <h1>Level 2</h1>
                 <h2>Minecraft</h2>
               </span>
             </div>
@@ -172,7 +201,7 @@ export default function Home() {
                 height={70}
               />
               <span className={style.level}>
-                <h1>Level 2</h1>
+                <h1>Level 3</h1>
                 <h2>Artificial Intelligence</h2>
               </span>
             </div>
